@@ -58,11 +58,11 @@ const createPost = (post) => {
               <div class="post__header">
                 <div class="post__profile">
                   <a
-                    href="https://github.com/ProgrammingHero1"
+                    href="${post.userImage}"
                     target="_blank"
                     class="post__avatar"
                   >
-                    <img src="${image}" alt="User Picture" />
+                    <img src="${post.userImage}" alt="User Picture" />
                   </a>
                   <a href="#" class="post__user">phero</a>
                 </div>
